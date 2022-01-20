@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="tP" nsURI="http://www.example.org/tP" nsPrefix="tP">
+  <eClassifiers xsi:type="ecore:EClass" name="Foyer">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="personne" lowerBound="1"
+        upperBound="-1" eType="#//Personne" containment="true" eOpposite="#//Personne/foyer"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="animaux" lowerBound="1"
+        upperBound="-1" eType="#//Animal" containment="true" eOpposite="#//Animal/foyer"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nomVille" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Animal">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="foyer" lowerBound="1" eType="#//Foyer"
+        eOpposite="#//Foyer/animaux"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="age" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="adoptant" lowerBound="1"
+        eType="#//Adoptant" eOpposite="#//Adoptant/animaux"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Personne">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="foyer" lowerBound="1" eType="#//Foyer"
+        eOpposite="#//Foyer/personne"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nom" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="prenom" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Benevole" eSuperTypes="#//Personne">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="tache" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Adoptant" eSuperTypes="#//Personne">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="peutAdopter" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="animaux" lowerBound="1"
+        upperBound="-1" eType="#//Animal" containment="true" eOpposite="#//Animal/adoptant"/>
+  </eClassifiers>
+</ecore:EPackage>
