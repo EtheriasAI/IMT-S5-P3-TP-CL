@@ -4,7 +4,7 @@
 > Barthelme Justine
 > FIL A1 2021-2024
 
-[![N|Solid](https://img.pngio.com/github-logo-icon-of-glyph-style-available-in-svg-png-eps-ai-github-icon-png-256_256.png)](https://github.com/EtheriasAI/tp-foyers)
+[![N|Solid](https://fr.github.com/assets/images/logos/desktop-logo.png)](https://github.com/EtheriasAI/tp-foyers)
 Vous pouvez trouver le code sur GitHub en cliquant sur le lien
 
 ### Presentation
