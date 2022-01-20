@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tP="http://www.example.org/tP">
+  <tP:Foyer nom="fairytail" nomVille="magnolia">
+    <personne xsi:type="tP:Benevole" nom="Redfox" prenom="Gajeel" tache="gestion caisse de la spa"/>
+    <personne xsi:type="tP:Adoptant" nom="Marvel" prenom="Wendy" peutAdopter="true"/>
+    <personne xsi:type="tP:Adoptant" nom="Dragnir" prenom="Nastu" peutAdopter="true"/>
+    <animaux nom="happy" age="8" description="il est l&#xe0; pour apporter le bonheur"/>
+    <animaux nom="Carla" age="8" description="elle est un peu stricte mais elle est sympa apres"/>
+    <animaux nom="pantherlily" age="20" description="c'ets le premier exceed super fort"/>
+  </tP:Foyer>
+  <tP:Foyer nom="sabertooth" nomVille="fiore">
+    <personne xsi:type="tP:Benevole" nom="Eucliffe" prenom="Sting" tache="PDG de la spa"/>
+    <personne xsi:type="tP:Adoptant" nom="Cheney" prenom="Rogue" peutAdopter="true"/>
+    <animaux nom="frosh" age="15" description="il croit qu'il est une grenouille"/>
+    <animaux nom="lector" age="15" description="il est pretentieux a la place de sting"/>
+  </tP:Foyer>
+</xmi:XMI>
