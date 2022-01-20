@@ -12,6 +12,7 @@ Vous pouvez trouver le code sur GitHub en cliquant sur le lien
 Le projet consiste à reproduire un modèle de la SPA
 L'objectif est de permettre d'ajouter des animaux des bénévoles et des adoptants pour ensuite permettre une adoption
 On peut créer plusieurs foyers si on le souhaite et même importer des fichiers xmi et les sauvegarder
+Des jeux de test sont disponible dans le dossier dataTest
 ### Le modèle
 
 ||
