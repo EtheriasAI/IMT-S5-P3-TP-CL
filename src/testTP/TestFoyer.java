@@ -6,12 +6,12 @@ import java.util.ArrayList;
 
 import org.junit.jupiter.api.Test;
 
+import main.SPA;
+import main.XMI;
 import tP.Animal;
 import tP.Foyer;
 import tP.Personne;
-import tP.SPA;
 import tP.TPFactory;
-import tP.XMI;
 import tP.Adoptant;
 
 class TestFoyer {
