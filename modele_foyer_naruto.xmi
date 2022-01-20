@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tP="http://www.example.org/tP">
+  <tP:Foyer nom="Konoha" nomVille="Konoha">
+    <personne xsi:type="tP:Benevole" nom="Uchiwa" prenom="Sasuke" tache="Nettoyer les liti&#xe8;res"/>
+    <personne xsi:type="tP:Adoptant" nom="Uzumaki" prenom="Naruto" peutAdopter="true"/>
+    <personne xsi:type="tP:Adoptant" nom="Haruno" prenom="Sakura">
+      <animaux nom="Kutsuyu" age="500" description="x"/>
+    </personne>
+    <animaux nom="Kyubi" age="1000" description="x"/>
+    <animaux nom="Kurama" age="1000" description="x"/>
+  </tP:Foyer>
+  <tP:Foyer nom="Suna" nomVille="Sunagakure no Sato">
+    <personne xsi:type="tP:Benevole" nom="Kazekage" prenom="Temari" tache="Nourir les chiots"/>
+    <personne xsi:type="tP:Adoptant" nom="Kazekage" prenom="Gaara"/>
+    <personne xsi:type="tP:Adoptant" nom="Kazekage" prenom="Kankuro" peutAdopter="true"/>
+    <animaux nom="Ichibi" age="1000" description="x"/>
+    <animaux nom="Shukaku" age="1000" description="x"/>
+  </tP:Foyer>
+  <tP:Foyer nom="Kumo" nomVille="Kumogakure no Sato">
+    <personne xsi:type="tP:Adoptant" nom="Kumokage" prenom="Killer Bee"/>
+    <personne xsi:type="tP:Adoptant" nom="Kumokage" prenom="Killer Bee" peutAdopter="true"/>
+    <personne xsi:type="tP:Benevole" nom="Kumokage" prenom="Karui" tache="Communication"/>
+    <personne xsi:type="tP:Benevole" nom="Kumokage" prenom="Omoi" tache="V&#xe9;t&#xe9;rinaire"/>
+    <animaux nom="Hachibi" age="1000" description="x"/>
+    <animaux nom="Gyuki" age="1000" description="x"/>
+  </tP:Foyer>
+</xmi:XMI>
