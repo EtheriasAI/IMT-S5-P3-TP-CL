@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<tP:Foyer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tP="http://www.example.org/tP" nom="Katze Haus" nomVille="Nuremberg">
-  <personne xsi:type="tP:Benevole" nom="Karl" prenom="Hans" tache="Gestionnaire"/>
-  <personne xsi:type="tP:Adoptant" nom="Bizet" prenom="Titouan">
-    <animaux nom="Franz" age="2" description="Il aime manger du chocolat"/>
-  </personne>
-</tP:Foyer>
